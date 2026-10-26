@@ -1,0 +1,86 @@
+FORTNITE CONFIG
+=====================
+
+Que trae
+--------
+- GameUserSettings.ini    Graficos en modo Rendimiento, FPS y sonido ya puestos.
+- parametros.txt    Las opciones de inicio para Epic Games.
+- imagenes\               Capturas de las opciones de video, sonido, juego e interfaz.
+
+
+1) Poner el GameUserSettings.ini
+--------------------------------
+- Cerra Fortnite.
+- Toca Windows + R, pega esto y dale a Enter:
+
+    %LOCALAPPDATA%\FortniteGame\Saved\Config\WindowsClient
+
+  (es la carpeta  AppData\Local\FortniteGame\Saved\Config\WindowsClient  de tu usuario)
+- Copia ahi GameUserSettings.ini y reemplazalo.
+- Ojo: pone los graficos en ultra bajo y el limite en 360 FPS. Despues entra al juego
+  y ajustalos como los uses vos (paso 3).
+
+
+2) Opciones de inicio de Epic Games
+-----------------------------------
+- En Epic Games: Biblioteca > los 3 puntitos de Fortnite > Administrar (parametros1.png).
+- Activa "Opciones de inicio" y pega lo que esta en opcionesdeinicio.txt:
+
+    -high -USEALLAVAILABLECORES -NOSPLASH -limitclientticks -lanplay -notexturestreaming
+
+  -high                    Le da prioridad alta al juego en el procesador.
+  -USEALLAVAILABLECORES    Usa todos los nucleos del procesador.
+  -NOSPLASH                Saca la pantalla de carga del inicio.
+  -limitclientticks        Menos trabajo para el procesador.
+  -lanplay                 Saca el limite de ancho de banda.
+  -notexturestreaming      Carga todas las texturas de una. SOLO si tu placa de video
+                           tiene mas de 8 GB de VRAM; si no, borralo.
+
+
+3) Opciones dentro del juego (estan en la carpeta imagenes)
+-----------------------------------------------------------
+VIDEO (video1.png, video2.png y video3.png)
+- Modo ventana: Pantalla completa (en la captura esta en ventana solo para sacar la foto)
+- Resolucion: la de tu monitor
+- Sincronizacion vertical: No
+- Limite de FPS: limitado, pero un poco por encima de los Hz de tu monitor
+  (ejemplo: monitor de 144 Hz -> 160 o 165 FPS)
+- Modo de renderizacion: Rendimiento
+- Modo de daltonismo: Protanopia | Intensidad: 10 (opcional, a muchos les ayuda a ver mejor)
+- Resolucion 3D: 100% | Resolucion 3D dinamica: No
+- Distancia de vision: Lejos | Texturas: Media (100% opcional, Baja da mas FPS) | Mallas: Baja
+- Mostrar FPS: Si | Depuracion de errores de GPU: No
+- Latencia baja de NVIDIA Reflex: Activado + potenciar
+- Estadisticas de rendimiento: Deshabilitado
+
+SONIDO (sonido1.png)
+- Calidad de sonido: Alta | Audifonos 3D: Si
+  (son necesarios para escuchar bien los pasos; si te va mal de FPS, ponelos
+  en Baja y desactivados)
+- Marcadores de impacto: Legado
+- Visualizar efectos de sonido: Si
+
+JUEGO (juego1.png y juego2.png)
+- Modo reposo: Nunca | Ahorro de energia en espera y en ventana inactiva: No
+- Campo de vision: 75 a 105 grados
+- Grabar repeticiones: Si | Las demas repeticiones: No
+
+IU DEL JUEGO (iu1.png)
+- Reticula e indicador de municion: Si
+- Mostrar propagacion y Mostrar retroceso (primera persona): No
+  (asi se desactiva el retroceso visual de las armas con mira)
+- Atraer reticula: No
+- Numeros de dano: Acumulativo | Informacion de dano de reticula: Solo impactos
+
+
+Para tener en cuenta
+--------------------
+- Si algo se ve raro o el juego no abre, borra GameUserSettings.ini de la carpeta del
+  paso 1 y Fortnite crea uno nuevo.
+- Despues de una actualizacion grande, Fortnite puede volver a cambiar opciones:
+  revisa que siga en modo Rendimiento.
+
+Creditos
+--------
+Hecho por 011Xuca
+Redes: https://linktr.ee/011xuca

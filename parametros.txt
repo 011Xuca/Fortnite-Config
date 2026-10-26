@@ -1,0 +1,1 @@
+-high -USEALLAVAILABLECORES -NOSPLASH -limitclientticks -lanplay -notexturestreaming
